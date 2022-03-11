@@ -13,7 +13,8 @@ public class DataTypes {
 		for(int i = 0; i < n; i++)
 			arr[i] = new Point(in.nextInt(), in.nextInt());
 
-		double cX = 0, cY = 0;
+		double cX = 0;
+		double cY = 0;
 		for(int i = 0; i < n; i++) {
 			cX += arr[i].X();
 			cY += arr[i].Y();
